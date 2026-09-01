@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="건축 전문 기업 공식 홈페이지">
+    <title>ARCHON | 건축의 기준을 만듭니다</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- POPUP MODAL -->
+    <div class="popup-overlay" id="popupOverlay">
+
+        <div class="popup-box">
+
+            <button
+                class="popup-close"
+                id="popupClose"
+                type="button"
+                aria-label="팝업 닫기"
+            >
+                ×
+            </button>
+
+            <div class="popup-image">
+                <img
+                    src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=90"
+                    alt="ARCHON 새 소식"
+                >
+            </div>
+
+            <div class="popup-content">
+
+                <span class="popup-eyebrow">
+                    NOTICE
+                </span>
+
+                <h3>
+                    ARCHON 공식 홈페이지가<br>
+                    새롭게 오픈했습니다.
+                </h3>
+
+                <p>
+                    더 편리해진 메뉴와 콘텐츠로<br>
+                    여러분을 찾아뵙겠습니다.
+                </p>
+
+                <a href="about.html" class="popup-button">
+                    회사소개 보러가기
+                    <span>→</span>
+                </a>
+
+            </div>
+
+            <div class="popup-footer">
+
+                <label class="popup-hide-today">
+                    <input type="checkbox" id="popupHideToday">
+                    오늘 하루 보지 않기
+                </label>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="inner header-inner">
+
+            <a href="#" class="logo">
+                <span class="logo-mark"></span>
+                <span class="logo-text">ARCHON</span>
+            </a>
+
+            <nav class="gnb">
+                <ul>
+                    <li><a href="about.html">회사소개</a></li>
+                    <li><a href="#">상품소개</a></li>
+                    <li><a href="#">상품구매하기</a></li>
+                    <li><a href="#">공지사항</a></li>
+                    <li><a href="#">고객센터</a></li>
+                </ul>
+            </nav>
+
+            <div class="utility">
+                <a href="#">로그인</a>
+                <a href="#">회원가입</a>
+
+               <a href="#" class="utility-icon" aria-label="장바구니">
+    <svg class="cart-svg" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M3 4h2l2.2 11.2a2 2 0 0 0 2 1.6h7.9a2 2 0 0 0 2-1.6L21 7H6"/>
+        <circle cx="10" cy="20" r="1"/>
+        <circle cx="18" cy="20" r="1"/>
+    </svg>
+</a>
+                <a href="#">주문/배송조회</a>
+                <a href="#">마이페이지</a>
+            </div>
+
+            <button class="mobile-menu" type="button" aria-label="메뉴 열기">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
+    </header>
+
+
+    <!-- MOBILE NAV DRAWER -->
+    <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+
+    <nav class="mobile-nav" id="mobileNav">
+
+        <ul class="mobile-nav-list">
+            <li><a href="about.html">회사소개</a></li>
+            <li><a href="index.html">상품소개</a></li>
+            <li><a href="index.html">상품구매하기</a></li>
+            <li><a href="index.html">공지사항</a></li>
+            <li><a href="index.html">고객센터</a></li>
+        </ul>
+
+        <div class="mobile-nav-utility">
+            <a href="#">로그인</a>
+            <a href="#">회원가입</a>
+            <a href="#">주문/배송조회</a>
+            <a href="#">마이페이지</a>
+        </div>
+
+    </nav>
+
+
+    <!-- MAIN -->
+    <main>
+
+        <!-- MAIN VISUAL -->
+        <section class="main-visual">
+
+            <div class="visual-slides">
+
+                <article
+                    class="visual-slide active"
+                    style="background-image: url('https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=2400&q=90');"
+                >
+                    <div class="visual-overlay"></div>
+
+                    <div class="inner visual-content">
+
+                        <p class="visual-category">
+                            ARCHITECTURE & TECHNOLOGY
+                        </p>
+
+                        <h1>
+                            건축의 기준을<br>
+                            새롭게 만들어갑니다.
+                        </h1>
+
+                        <p class="visual-description">
+                            축적된 기술과 전문성을 바탕으로<br>
+                            더 나은 건축의 가능성을 만들어갑니다.
+                        </p>
+
+                        <a href="about.html" class="visual-button">
+                            회사소개
+                            <span>→</span>
+                        </a>
+
+                    </div>
+                </article>
+
+
+                <article
+                    class="visual-slide"
+                    style="background-image: url('https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=2400&q=90');"
+                >
+                    <div class="visual-overlay"></div>
+
+                    <div class="inner visual-content">
+
+                        <p class="visual-category">
+                            BUILDING MATERIALS
+                        </p>
+
+                        <h1>
+                            더 정교한 기술이<br>
+                            더 좋은 공간을 만듭니다.
+                        </h1>
+
+                        <p class="visual-description">
+                            건축 환경에 최적화된 제품과 솔루션으로<br>
+                            새로운 공간의 가치를 제안합니다.
+                        </p>
+
+                        <a href="#" class="visual-button">
+                            상품소개
+                            <span>→</span>
+                        </a>
+
+                    </div>
+                </article>
+
+
+                <article
+                    class="visual-slide"
+                    style="background-image: url('https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=2400&q=90');"
+                >
+                    <div class="visual-overlay"></div>
+
+                    <div class="inner visual-content">
+
+                        <p class="visual-category">
+                            TRUST & QUALITY
+                        </p>
+
+                        <h1>
+                            신뢰를 쌓고<br>
+                            미래를 설계합니다.
+                        </h1>
+
+                        <p class="visual-description">
+                            고객과 함께 고민하고 연구하며<br>
+                            지속 가능한 건축의 미래를 만들어갑니다.
+                        </p>
+
+                        <a href="#" class="visual-button">
+                            문의하기
+                            <span>→</span>
+                        </a>
+
+                    </div>
+                </article>
+
+            </div>
+
+
+            <div class="visual-navigation">
+
+                <button
+                    class="visual-prev"
+                    type="button"
+                    aria-label="이전 슬라이드"
+                >
+                    ←
+                </button>
+
+                <div class="visual-indicators">
+
+                    <button
+                        class="indicator active"
+                        type="button"
+                        data-slide="0"
+                        aria-label="첫 번째 슬라이드"
+                    ></button>
+
+                    <button
+                        class="indicator"
+                        type="button"
+                        data-slide="1"
+                        aria-label="두 번째 슬라이드"
+                    ></button>
+
+                    <button
+                        class="indicator"
+                        type="button"
+                        data-slide="2"
+                        aria-label="세 번째 슬라이드"
+                    ></button>
+
+                </div>
+
+                <button
+                    class="visual-next"
+                    type="button"
+                    aria-label="다음 슬라이드"
+                >
+                    →
+                </button>
+
+            </div>
+
+
+            <div class="visual-progress">
+                <span></span>
+            </div>
+
+        </section>
+
+
+        <!-- SEARCH SECTION -->
+        <section class="search-section">
+
+            <div class="search-background"></div>
+
+            <div class="search-overlay"></div>
+
+            <div class="inner search-inner">
+
+                <div class="search-heading">
+
+                    <span class="search-eyebrow">
+                        SEARCH ARCHON
+                    </span>
+
+                    <h2>
+                        궁금하신 게 있나요?
+                    </h2>
+
+                    <p>
+                        제품명, 제품번호 또는 필요한 정보를 검색해보세요.
+                    </p>
+
+                </div>
+
+
+                <form class="search-form" id="siteSearch">
+
+                    <label for="searchInput" class="sr-only">
+                        검색어
+                    </label>
+
+                    <input
+                        type="text"
+                        id="searchInput"
+                        placeholder="검색어를 입력해주세요."
+                        autocomplete="off"
+                    >
+
+                    <button
+                        type="submit"
+                        aria-label="검색"
+                    >
+                        <span class="search-icon"></span>
+                    </button>
+
+                </form>
+
+
+                <div
+                    class="search-result"
+                    id="searchResult"
+                    aria-live="polite"
+                ></div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PRODUCT & NOTICE -->
+        <section class="product-notice-section">
+
+            <div class="inner product-notice-inner">
+
+                <!-- PRODUCT -->
+                <div class="product-area">
+
+                    <div class="section-heading product-heading">
+
+                        <div>
+                            <span class="section-eyebrow">
+                                PRODUCT
+                            </span>
+
+                            <h2>
+                                주요 상품
+                            </h2>
+                        </div>
+
+                        <a href="#" class="more-link">
+                            전체 상품 보기
+                            <span>→</span>
+                        </a>
+
+                    </div>
+
+
+                    <div class="product-slider">
+
+                        <div class="product-slides">
+
+                            <article class="product-slide active">
+
+                                <div class="product-image">
+                                    <img
+                                        src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1200&q=90"
+                                        alt="건축 외장재 제품"
+                                    >
+                                </div>
+
+                                <div class="product-info">
+
+                                    <span>
+                                        ARCHON MATERIAL
+                                    </span>
+
+                                    <h3>
+                                        고품질 건축 외장재
+                                    </h3>
+
+                                    <p>
+                                        건축물의 외관과 내구성을 동시에 고려한
+                                        전문 건축 외장재입니다.
+                                    </p>
+
+                                    <a href="#" class="product-link">
+                                        제품 상세보기
+                                        <span>→</span>
+                                    </a>
+
+                                </div>
+
+                            </article>
+
+
+                            <article class="product-slide">
+
+                                <div class="product-image">
+                                    <img
+                                        src="https://images.unsplash.com/photo-1531835551805-16d864c8d113?auto=format&fit=crop&w=1200&q=90"
+                                        alt="건축 자재 제품"
+                                    >
+                                </div>
+
+                                <div class="product-info">
+
+                                    <span>
+                                        ARCHON SYSTEM
+                                    </span>
+
+                                    <h3>
+                                        건축 구조 시스템
+                                    </h3>
+
+                                    <p>
+                                        안정성과 시공 효율을 고려하여
+                                        다양한 건축 환경에 적용할 수 있습니다.
+                                    </p>
+
+                                    <a href="#" class="product-link">
+                                        제품 상세보기
+                                        <span>→</span>
+                                    </a>
+
+                                </div>
+
+                            </article>
+
+
+                            <article class="product-slide">
+
+                                <div class="product-image">
+                                    <img
+                                        src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=90"
+                                        alt="건축 시공 자재"
+                                    >
+                                </div>
+
+                                <div class="product-info">
+
+                                    <span>
+                                        ARCHON SOLUTION
+                                    </span>
+
+                                    <h3>
+                                        건축 시공 솔루션
+                                    </h3>
+
+                                    <p>
+                                        현장 조건과 시공 목적에 맞춘
+                                        전문 건축 솔루션을 제공합니다.
+                                    </p>
+
+                                    <a href="#" class="product-link">
+                                        제품 상세보기
+                                        <span>→</span>
+                                    </a>
+
+                                </div>
+
+                            </article>
+
+                        </div>
+
+
+                        <div class="product-controls">
+
+                            <button
+                                class="product-prev"
+                                type="button"
+                                aria-label="이전 상품"
+                            >
+                                ←
+                            </button>
+
+                            <div class="product-indicators">
+
+                                <button
+                                    class="product-indicator active"
+                                    type="button"
+                                    data-product="0"
+                                    aria-label="첫 번째 상품"
+                                ></button>
+
+                                <button
+                                    class="product-indicator"
+                                    type="button"
+                                    data-product="1"
+                                    aria-label="두 번째 상품"
+                                ></button>
+
+                                <button
+                                    class="product-indicator"
+                                    type="button"
+                                    data-product="2"
+                                    aria-label="세 번째 상품"
+                                ></button>
+
+                            </div>
+
+                            <button
+                                class="product-next"
+                                type="button"
+                                aria-label="다음 상품"
+                            >
+                                →
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- NOTICE -->
+                <div class="notice-area">
+
+                    <div class="section-heading notice-heading">
+
+                        <div>
+                            <span class="section-eyebrow">
+                                NOTICE
+                            </span>
+
+                            <h2>
+                                공지사항
+                            </h2>
+                        </div>
+
+                        <a href="#" class="more-link">
+                            더보기
+                            <span>+</span>
+                        </a>
+
+                    </div>
+
+
+                    <div class="notice-list">
+
+                        <a href="#" class="notice-item">
+
+                            <div class="notice-title">
+                                다양한 브라우저에서
+                                크로스브라우징을 지원합니다.
+                            </div>
+
+                            <time>
+                                21.05.03
+                            </time>
+
+                        </a>
+
+
+                        <a href="#" class="notice-item">
+
+                            <div class="notice-title">
+                                운영에 용이한 디자인
+                                이용가이드를 제공합니다.
+                            </div>
+
+                            <time>
+                                21.05.03
+                            </time>
+
+                        </a>
+
+
+                        <a href="#" class="notice-item">
+
+                            <div class="notice-title">
+                                건축 자재 및 디자인 전문
+                                웹 서비스를 제공합니다.
+                            </div>
+
+                            <time>
+                                21.05.03
+                            </time>
+
+                        </a>
+
+
+                        <a href="#" class="notice-item">
+
+                            <div class="notice-title">
+                                제품 및 서비스 관련
+                                새로운 소식을 안내드립니다.
+                            </div>
+
+                            <time>
+                                21.05.03
+                            </time>
+
+                        </a>
+
+                    </div>
+
+
+                    <!-- CUSTOMER -->
+                    <div class="customer-box">
+
+                        <div class="customer-title">
+                            <span>
+                                CUSTOMER CENTER
+                            </span>
+
+                            <strong>
+                                고객상담
+                            </strong>
+                        </div>
+
+                        <a
+                            href="tel:16448198"
+                            class="customer-number"
+                        >
+                            1644-8198
+                        </a>
+
+                        <div class="customer-hours">
+
+                            <p>
+                                상담시간 : 평일 09:00 - 18:00
+                            </p>
+
+                            <p>
+                                점심시간 : 12:00 - 13:00
+                            </p>
+
+                            <p>
+                                휴무 : 토·일·공휴일
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- COMPANY INTRO -->
+        <section class="company-intro-section">
+
+            <div class="inner company-intro-inner">
+
+                <div class="company-intro-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=90"
+                        alt="현대적인 건축물"
+                    >
+
+                    <div class="company-intro-number">
+                        <strong>01</strong>
+                        <span>ABOUT ARCHON</span>
+                    </div>
+                </div>
+
+
+                <div class="company-intro-content">
+
+                    <span class="section-eyebrow">
+                        ABOUT ARCHON
+                    </span>
+
+                    <h2>
+                        건축을 이해하고<br>
+                        더 나은 기준을 제시합니다.
+                    </h2>
+
+                    <p class="company-intro-lead">
+                        ARCHON은 건축 자재와 기술을 기반으로
+                        고객의 공간에 필요한 최적의 솔루션을
+                        제안하는 건축 전문 기업입니다.
+                    </p>
+
+                    <p class="company-intro-text">
+                        오랜 경험을 통해 축적한 기술력과 품질 관리 시스템을
+                        바탕으로 건축 현장의 다양한 요구에 대응하고 있습니다.
+                        단순한 제품 공급을 넘어 설계부터 시공, 유지관리까지
+                        고객이 필요로 하는 가치를 제공하기 위해 노력합니다.
+                    </p>
+
+                    <a href="about.html" class="dark-outline-button">
+                        회사소개
+                        <span>→</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- TECHNOLOGY -->
+        <section class="technology-section">
+
+            <div class="inner">
+
+                <div class="technology-heading">
+
+                    <div>
+                        <span class="section-eyebrow">
+                            TECHNOLOGY
+                        </span>
+
+                        <h2>
+                            기술과 경험으로<br>
+                            건축의 완성도를 높입니다.
+                        </h2>
+                    </div>
+
+                    <p>
+                        축적된 현장 경험과 전문 기술을 기반으로<br>
+                        건축 환경에 최적화된 솔루션을 제공합니다.
+                    </p>
+
+                </div>
+
+
+                <div class="technology-list">
+
+                    <article class="technology-item">
+
+                        <div class="technology-number">
+                            01
+                        </div>
+
+                        <div class="technology-icon">
+                            <span></span>
+                        </div>
+
+                        <div class="technology-content">
+
+                            <h3>
+                                전문 기술력
+                            </h3>
+
+                            <p>
+                                다양한 건축 환경에 대한 경험을 바탕으로
+                                현장의 조건과 목적에 맞는 전문적인
+                                기술 솔루션을 제공합니다.
+                            </p>
+
+                        </div>
+
+                        <span class="technology-arrow">
+                            →
+                        </span>
+
+                    </article>
+
+
+                    <article class="technology-item">
+
+                        <div class="technology-number">
+                            02
+                        </div>
+
+                        <div class="technology-icon technology-icon-quality">
+                            <span></span>
+                        </div>
+
+                        <div class="technology-content">
+
+                            <h3>
+                                품질 관리
+                            </h3>
+
+                            <p>
+                                제품의 품질과 안정성을 중요하게 생각하며
+                                체계적인 관리 기준을 통해
+                                신뢰할 수 있는 제품을 제공합니다.
+                            </p>
+
+                        </div>
+
+                        <span class="technology-arrow">
+                            →
+                        </span>
+
+                    </article>
+
+
+                    <article class="technology-item">
+
+                        <div class="technology-number">
+                            03
+                        </div>
+
+                        <div class="technology-icon technology-icon-solution">
+                            <span></span>
+                        </div>
+
+                        <div class="technology-content">
+
+                            <h3>
+                                맞춤형 솔루션
+                            </h3>
+
+                            <p>
+                                고객의 요구와 현장 상황을 분석하여
+                                보다 효율적이고 합리적인
+                                건축 솔루션을 제안합니다.
+                            </p>
+
+                        </div>
+
+                        <span class="technology-arrow">
+                            →
+                        </span>
+
+                    </article>
+
+
+                    <article class="technology-item">
+
+                        <div class="technology-number">
+                            04
+                        </div>
+
+                        <div class="technology-icon technology-icon-trust">
+                            <span></span>
+                        </div>
+
+                        <div class="technology-content">
+
+                            <h3>
+                                고객 신뢰
+                            </h3>
+
+                            <p>
+                                고객과의 약속을 최우선으로 생각하며
+                                프로젝트의 시작부터 완성까지
+                                지속적인 파트너십을 만들어갑니다.
+                            </p>
+
+                        </div>
+
+                        <span class="technology-arrow">
+                            →
+                        </span>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- BUSINESS -->
+        <section class="business-section">
+
+            <div class="business-background"></div>
+
+            <div class="business-overlay"></div>
+
+            <div class="inner business-inner">
+
+                <div class="business-heading">
+
+                    <span class="section-eyebrow">
+                        BUSINESS AREA
+                    </span>
+
+                    <h2>
+                        건축의 모든 과정에<br>
+                        전문성을 더합니다.
+                    </h2>
+
+                    <p>
+                        제품 공급부터 기술 지원까지<br>
+                        건축 프로젝트의 다양한 요구에 대응합니다.
+                    </p>
+
+                </div>
+
+
+                <div class="business-grid">
+
+                    <a href="#" class="business-card">
+
+                        <div class="business-card-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1000&q=90"
+                                alt="건축 설계"
+                            >
+                        </div>
+
+                        <div class="business-card-content">
+
+                            <span>01</span>
+
+                            <h3>
+                                건축 자재
+                            </h3>
+
+                            <p>
+                                건축 환경에 적합한
+                                다양한 전문 자재를 제공합니다.
+                            </p>
+
+                            <strong>
+                                →
+                            </strong>
+
+                        </div>
+
+                    </a>
+
+
+                    <a href="#" class="business-card">
+
+                        <div class="business-card-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1000&q=90"
+                                alt="건축 현장"
+                            >
+                        </div>
+
+                        <div class="business-card-content">
+
+                            <span>02</span>
+
+                            <h3>
+                                기술 지원
+                            </h3>
+
+                            <p>
+                                현장 조건을 분석하고
+                                최적의 기술 솔루션을 제안합니다.
+                            </p>
+
+                            <strong>
+                                →
+                            </strong>
+
+                        </div>
+
+                    </a>
+
+
+                    <a href="#" class="business-card">
+
+                        <div class="business-card-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1000&q=90"
+                                alt="건축 시공"
+                            >
+                        </div>
+
+                        <div class="business-card-content">
+
+                            <span>03</span>
+
+                            <h3>
+                                시공 솔루션
+                            </h3>
+
+                            <p>
+                                효율적인 시공과 안정적인
+                                현장 운영을 지원합니다.
+                            </p>
+
+                            <strong>
+                                →
+                            </strong>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="inner">
+
+            <div class="footer-top">
+
+                <div class="footer-logo">
+
+                    <span class="logo-mark"></span>
+
+                    <span class="logo-text">
+                        ARCHON
+                    </span>
+
+                </div>
+
+
+                <nav class="footer-nav">
+
+                    <a href="index.html">홈</a>
+                    <a href="about.html">회사소개</a>
+                    <a href="#">이용약관</a>
+                    <a href="#">개인정보처리방침</a>
+                    <a href="#">이용안내</a>
+                    <a href="#">공고/제휴문의</a>
+
+                </nav>
+
+            </div>
+
+
+            <div class="footer-content">
+
+                <div class="company-info">
+
+                    <p>
+                        법인명(상호) : ARCHON
+                        <span></span>
+                        대표자(성명) : 홍길동
+                        <span></span>
+                        사업자등록번호 : 000-00-00000
+                    </p>
+
+                    <p>
+                        통신판매업 신고 : 0000-서울-0000
+                        <span></span>
+                        <a href="#">사업자정보확인</a>
+                    </p>
+
+                    <p>
+                        주소 : 서울특별시 용산구 한강대로 95
+                    </p>
+
+                    <p>
+                        전화 : 02-0000-0000
+                        <span></span>
+                        팩스 : 02-0000-0001
+                        <span></span>
+                        이메일 : contact@archon.co.kr
+                    </p>
+
+                    <p>
+                        개인정보관리책임자 : 홍길동
+                    </p>
+
+                </div>
+
+
+                <div class="customer-info">
+
+                    <strong>
+                        고객상담
+                    </strong>
+
+                    <a
+                        href="tel:16448198"
+                        class="customer-number"
+                    >
+                        1644-8198
+                    </a>
+
+                    <p>
+                        상담시간 : 평일 09:00 - 18:00
+                    </p>
+
+                    <p>
+                        점심시간 : 12:00 - 13:00
+                    </p>
+
+                    <p>
+                        휴무 : 토·일·공휴일
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-bottom">
+
+                <p>
+                    COPYRIGHT © ARCHON. ALL RIGHTS RESERVED.
+                </p>
+
+                <div class="footer-bottom-links">
+
+                    <a href="#">
+                        개인정보처리방침
+                    </a>
+
+                    <a href="#">
+                        이용약관
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js.js"></script>
+
+</body>
+</html>
